@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Video Aspect Ratio and Speed Controller",
+  "version": "1.0",
+  "description": "Change aspect ratio and playback speed of videos on any website",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "css": ["content.css"],
+      "js": [
+        "state.js",
+        "video-transform.js",
+        "ui.js",
+        "content.js"
+      ]
+    }
+  ]
+}
