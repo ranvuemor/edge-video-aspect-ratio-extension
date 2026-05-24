@@ -5,16 +5,16 @@
   "description": "Change aspect ratio and playback speed of videos on any website",
   "permissions": ["activeTab", "scripting"],
   "icons": {
-    "16": "icons/icon.svg",
-    "48": "icons/icon.svg",
-    "128": "icons/icon.svg"
+    "16": "icons/16.png",
+    "48": "icons/48.png",
+    "128": "icons/128.png"
   },
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
-      "16": "icons/icon.svg",
-      "48": "icons/icon.svg",
-      "128": "icons/icon.svg"
+      "16": "icons/16.png",
+      "48": "icons/48.png",
+      "128": "icons/128.png"
     }
   },
   "content_scripts": [
